@@ -216,16 +216,16 @@ bindsym --release button2 kill
 #  Startup  #
 #############
 
-# # Wallpaper
-# exec_always --no-startup-id sh ~/.fehbg &
+# Wallpaper
+exec_always --no-startup-id sh ~/.fehbg &
 
 # Compton
 exec --no-startup-id compton
 
 exec --no-startup-id xmodmap ~/.Xmodmap &
 
-#  # pkexec
-# exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ # pkexec
+exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
 
 # nm-applet
 exec --no-startup-id nm-applet
@@ -261,15 +261,15 @@ set $ws3 3: 
 #          
 set $ws4 4: 
 #          
-set $ws5 5: 
+set $ws5 5: 
 #  
-set $ws6 6: 
-set $ws7 7: 
+set $ws6 6: 
+set $ws7 7: 
 set $ws8 8: 
 # 
 set $ws9 9: 
 #   
-set $ws10 10: 
+set $ws10 10: 
 #            ⭘                         
 #   
 
