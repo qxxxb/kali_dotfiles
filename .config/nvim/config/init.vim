@@ -217,6 +217,8 @@ Plug 'tpope/vim-repeat'
 " Calendar application
 Plug 'itchyny/calendar.vim'
 
+Plug 'edkolev/tmuxline.vim'
+
 call plug#end()
 " Automatically executes:
 "	filetype plugin indent on
