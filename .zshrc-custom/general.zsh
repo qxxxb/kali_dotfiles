@@ -221,4 +221,4 @@ SPACESHIP_PROMPT_ORDER=(
     char          # Prompt character
 )
 
-export FZF_DEFAULT_OPTS="--reverse --border --prompt=\ "
+export FZF_DEFAULT_OPTS="--reverse --border"
